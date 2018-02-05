@@ -1,0 +1,20 @@
+
+<div class="grade-container">
+  <div>
+      <div class="hours" >
+        <div ng-repeat="h in hours" class="hour"> {{ h ? h : '00'  }} </div>
+      </div>
+      <div class="channel-container">
+        <div class="canais" ng-style="grade.style">
+          <div class="channel" ng-repeat="canal in canais"> {{ canal.titulo }} </div>
+        </div>
+        <div class="channel-hours">
+          <div ng-repeat="h in hours" class="channel-separete" ng-style="grade.style"></div>
+          <div class="box" ng-repeat="p in programas" ng-style="p.style">
+            {{ p.titulo }}<br> {{ p.hrInicio }} - {{ p.hrFim }}
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+

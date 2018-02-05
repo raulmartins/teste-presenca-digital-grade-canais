@@ -1,0 +1,66 @@
+.hours {
+    z-index: 1;
+    background-color: white;
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    padding-top: 40px;
+}
+
+.hour {
+    background-color: rgb(55, 132, 170);
+    border-bottom: 1px solid white;
+    width: 40px;
+    height: 60px;
+    line-height:60px;
+    text-align: center;
+    color: white;
+}
+
+.channel-hours {
+    overflow-x: auto;
+    position: relative;
+    float: left;
+}
+.channel-separete {
+    border-bottom: 1px solid rgb(230, 221, 221);
+    width: 900px;
+    height: 60px;
+    background-color: #9e9c9c;
+}
+
+.box {
+    overflow-y: hidden;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1em;
+    position: absolute;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    background: #1e4157;
+    color: white;
+}
+
+.channel-container {
+    padding-left: 40px;
+    width: 1000px;
+}
+
+.grade-container {
+    position: relative;
+    transform: translateY(1em)translateX(16em);
+}
+
+.channel {
+    display: inline-block;
+    height: 40px;
+    background-color: #cecece;
+    border-right: 1px solid #1e4157;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+}

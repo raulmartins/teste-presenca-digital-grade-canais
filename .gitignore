@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/bower_components
 
 # production
 /build
